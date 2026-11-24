@@ -1,4 +1,4 @@
-import { cellAt, inBounds } from "@/features/atlas";
+import { cellAt, inBounds } from "@/features/atlas/lib/grid";
 import { sameCell } from "@/shared/document";
 import type { GameDocument, Vec } from "@/shared/types";
 

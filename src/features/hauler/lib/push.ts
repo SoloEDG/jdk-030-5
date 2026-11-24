@@ -1,5 +1,5 @@
 import { boxAt } from "./occupancy";
-import { isPassable } from "@/features/gadget";
+import { isPassable } from "@/features/gadget/lib/passable";
 import { addVec } from "@/shared/document";
 import { DIR_VEC, type Dir, type GameDocument, type MoveResult } from "@/shared/types";
 

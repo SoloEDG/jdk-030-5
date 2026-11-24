@@ -1,4 +1,4 @@
-import { goalCells } from "@/features/atlas";
+import { goalCells } from "@/features/atlas/lib/grid";
 import { sameCell } from "@/shared/document";
 import type { GameDocument, Vec } from "@/shared/types";
 
